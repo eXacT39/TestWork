@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="MapSource 6.15.4" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2013-11-29T05:54:45Z</time>
+    <bounds maxlat="54.9666630" maxlon="22.7634630" minlat="54.4308210" minlon="21.8071320"/>
+  </metadata>
+
+  <trk>
+    <name>day1</name>
+    <extensions>
+      <gpxx:TrackExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+        <gpxx:DisplayColor>DarkRed</gpxx:DisplayColor>
+      </gpxx:TrackExtension>
+    </extensions>
+    <trkseg>
+      <trkpt lat="54.6286510" lon="21.8180850">
+        <ele>8.3890000</ele>
+      </trkpt>
+      <trkpt lat="54.6286180" lon="21.8181970">
+        <ele>5.3310000</ele>
+      </trkpt>
+      <trkpt lat="54.6286750" lon="21.8182700">
+        <ele>9.3390000</ele>
+      </trkpt>
+      <trkpt lat="54.6287200" lon="21.8182420">
+        <ele>19.2490000</ele>
+      </trkpt>
+
+    </trkseg>
+  </trk>
+
+</gpx>

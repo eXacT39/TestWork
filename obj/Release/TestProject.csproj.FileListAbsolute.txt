@@ -1,0 +1,7 @@
+C:\Users\Notebook\Documents\Visual Studio 2008\Projects\TestProject\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Notebook\Documents\Visual Studio 2008\Projects\TestProject\bin\Release\TestProject.exe
+C:\Users\Notebook\Documents\Visual Studio 2008\Projects\TestProject\bin\Release\TestProject.pdb
+C:\Users\Notebook\Documents\Visual Studio 2008\Projects\TestProject\obj\Release\TestProject.exe
+C:\Users\Notebook\Documents\Visual Studio 2008\Projects\TestProject\obj\Release\TestProject.pdb
+D:\Studing\Всяка разна учёба\TestProject\obj\Release\TestProject.exe
+D:\Studing\Всяка разна учёба\TestProject\obj\Release\ResolveAssemblyReference.cache
