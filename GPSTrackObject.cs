@@ -17,5 +17,10 @@ namespace TestProject
             longitude = _lon;
             unknownParam = _unk;
         }
+
+        public override string ToString()
+        {
+            return latitude + " " + longitude + " " + unknownParam;
+        }
     }
 }

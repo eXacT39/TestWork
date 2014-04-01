@@ -12,9 +12,19 @@ namespace TestProject
     {
         static void Main(string[] args)
         {
-            String inputStream = File.ReadAllText("v1347tr.gpx");
             List<GPSTrackObject> resList = new List<GPSTrackObject>();
-            resList.AddRange(ParseStream(inputStream));
+            Thread [] threads = new Thread[args.Count()];
+
+            for (Int32 i = 0; i < args.Count(); ++i)
+            {
+                String inputStream = File.ReadAllText(args[i]);
+                threads[i] = new Thread(() => resList.AddRange(ParseStream(inputStream)));
+                threads[i].IsBackground = true;
+                threads[i].Start();
+            }
+
+            waitAllThreadEndings(threads);
+            outputToFile(resList);
         }
 
         static List<GPSTrackObject> ParseStream(String inputStream)
@@ -33,6 +43,22 @@ namespace TestProject
                 result.Add(new GPSTrackObject(_lat, _lon, _unk));
             }
             return result;
+        }
+
+        static void outputToFile(List<GPSTrackObject> resList)
+        {
+            foreach (var obj in resList)
+            {
+                File.AppendAllText("output.txt", obj.ToString() + "\n");
+            }
+        }
+
+        static void waitAllThreadEndings(Thread [] threads)
+        {
+            foreach (var thread in threads)
+            {
+                thread.Join();
+            }
         }
     }
 }

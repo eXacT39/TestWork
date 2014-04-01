@@ -8,3 +8,8 @@ D:\Studing\Всяка разна учёба\TestProject\bin\Debug\TestProject.pd
 D:\Studing\Всяка разна учёба\TestProject\obj\Debug\ResolveAssemblyReference.cache
 D:\Studing\Всяка разна учёба\TestProject\obj\Debug\TestProject.exe
 D:\Studing\Всяка разна учёба\TestProject\obj\Debug\TestProject.pdb
+D:\Studing\TestProject\obj\Debug\TestProject.exe
+D:\Studing\TestProject\obj\Debug\TestProject.pdb
+D:\Studing\TestProject\bin\Debug\TestProject.exe
+D:\Studing\TestProject\bin\Debug\TestProject.pdb
+D:\Studing\TestProject\obj\Debug\ResolveAssemblyReference.cache
