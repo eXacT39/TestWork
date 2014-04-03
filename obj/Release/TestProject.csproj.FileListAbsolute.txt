@@ -10,3 +10,8 @@ D:\Studing\TestProject\obj\Release\TestProject.exe
 D:\Studing\TestProject\bin\Release\TestProject.exe
 D:\Studing\TestProject\bin\Release\TestProject.pdb
 D:\Studing\TestProject\obj\Release\TestProject.pdb
+D:\Studying\TestWork\bin\Release\TestProject.exe
+D:\Studying\TestWork\bin\Release\TestProject.pdb
+D:\Studying\TestWork\obj\Release\ResolveAssemblyReference.cache
+D:\Studying\TestWork\obj\Release\TestProject.exe
+D:\Studying\TestWork\obj\Release\TestProject.pdb

@@ -5,6 +5,7 @@ using System.Text;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Threading;
+using System.Globalization;
 
 namespace TestProject
 {
@@ -34,13 +35,15 @@ namespace TestProject
             Regex regex = new Regex(pattern);
             MatchCollection mc = regex.Matches(inputStream);
 
+            Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("en-en");
+
             foreach (Match item in mc)
             {
-                Double _lat = double.Parse(item.Groups["lat"].Value.Replace('.', ','));
-                Double _lon = double.Parse(item.Groups["lon"].Value.Replace('.', ','));
-                Double _unk = double.Parse(item.Groups["unk"].Value.Replace('.', ','));
+                Double latitude = double.Parse(item.Groups["lat"].Value);
+                Double longitude = double.Parse(item.Groups["lon"].Value);
+                Double altitude = double.Parse(item.Groups["alt"].Value);
 
-                result.Add(new GPSTrackObject(_lat, _lon, _unk));
+                result.Add(new GPSTrackObject(latitude, longitude, altitude));
             }
             return result;
         }
